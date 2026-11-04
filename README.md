@@ -1,96 +1,122 @@
-Z.ai Code — System Prompt & Agent Workflow Research
+"Z.ai Code — System Prompt & Agent Research" (assets/banner.png)
 
-An independent, open-source research project exploring the prompt structure, agent workflows, skills, and tooling associated with Z.ai Code.
+Z.ai Code — System Prompt & Agent Research
 
-""GitHub" (https://img.shields.io/badge/GitHub-Repository-181717?logo=github)" (https://github.com/shetanmehra/z.ai-Full-system-prompt-)
-""Markdown" (https://img.shields.io/badge/Format-Markdown-blue?logo=markdown)" (./prompt.md)
+An independent research project exploring AI coding-agent instructions, skills, orchestration, tools, and development workflows.
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Project-Independent%20Research-00D26A?style=flat-square" alt="Independent Research" />
+  <img src="https://img.shields.io/badge/Format-Markdown-blue?style=flat-square&logo=markdown" alt="Markdown" />
+  <img src="https://img.shields.io/badge/Focus-AI%20Agents-black?style=flat-square" alt="AI Agents" />
+</p>"Explore the Document" (prompt.md) · "Report an Issue" (../../issues) · "Contribute" (../../pulls)
+
+---
 
 Overview
 
-This repository documents research into the instruction structure and agent workflows associated with Z.ai Code.
+This repository contains an independently reconstructed and documented collection of material related to Z.ai Code and its AI coding-agent workflows.
 
-The goal is to make the documented material accessible to developers, AI researchers, and open-source contributors interested in understanding how coding agents coordinate tools, skills, subtasks, and development workflows.
+It explores how coding agents may structure instructions, discover skills, coordinate subtasks, interact with development tools, and perform iterative development and quality assurance.
 
-The primary document is ""prompt.md"" (./prompt.md).
+The project is intended for developers, AI researchers, and open-source contributors interested in understanding agent architectures and building safer, more capable AI-powered development tools.
 
-What You'll Find
+Start here: ""prompt.md"" (prompt.md)
 
-- Prompt structure: Instructions, workflow conventions, and agent behavior.
-- Agent orchestration: Sub-agent delegation, task coordination, and shared work logs.
-- Skills system: Skill discovery, documentation, and workflow integration.
-- Tooling: References to filesystem operations, terminal commands, and development tools.
-- Scheduled workflows: Research into recurring development and quality-assurance tasks.
-- Development workflows: Project implementation, browser-based verification, and iterative improvements.
+What's Inside?
 
-These topics describe the contents of the document; they should not be interpreted as proof that every mechanism is implemented or enabled in every version of Z.ai Code.
+Topic| Description
+Prompt Structure| Instructions, conventions, and agent behavior
+Agent Architecture| Agent roles and task execution patterns
+Sub-Agent Orchestration| Delegation, coordination, and shared work logs
+Skills System| Skill discovery and workflow integration
+Tool Integrations| Terminal, filesystem, and development utilities
+Scheduled Workflows| Recurring tasks and automated QA concepts
+Development Workflows| Implementation, browser verification, and iteration
+Security Research| Permissions, prompt injection, and execution boundaries
+
+The document is a research artifact. Inclusion of a mechanism does not guarantee that it exists or is enabled in every version of the original software.
+
+Why This Project?
+
+AI coding agents are evolving beyond simple code completion. They can coordinate tools, delegate work, and execute multi-step development workflows.
+
+Understanding these systems helps developers investigate:
+
+- How agent instructions influence behavior.
+- How skills and tools extend agent capabilities.
+- How multiple agents coordinate complex tasks.
+- How persistent tasks can create unintended side effects.
+- How tool permissions and trust boundaries affect security.
+- How to design more reliable and secure agent systems.
+
+The goal is to encourage technical learning, independent analysis, and constructive community discussion.
 
 Repository Structure
 
 z.ai-Full-system-prompt-/
 ├── README.md
-└── prompt.md
+├── prompt.md
+└── assets/
+    └── banner.png
+
+The structure above represents the intended layout. The banner will display once "assets/banner.png" has been uploaded to the repository.
 
 Getting Started
 
-No installation is required to read the documentation.
+No installation is required to explore the documentation.
 
-1. Open ""prompt.md"" (./prompt.md).
-2. Explore the documented instructions and workflow sections.
-3. Review the architecture and tooling references.
-4. Validate technical claims independently before using them in your own projects.
+1. Clone or open this repository.
+2. Read ""prompt.md"" (prompt.md).
+3. Explore the documented instructions, tools, and workflows.
+4. Verify technical claims independently before relying on them.
 
-Why This Project?
+To clone the repository:
 
-AI coding agents are becoming increasingly capable of working with tools, coordinating specialized agents, and executing multi-step development workflows.
+git clone https://github.com/shetanmehra/z.ai-Full-system-prompt-.git
+cd z.ai-Full-system-prompt-
 
-Studying their instruction structures can help developers better understand:
+Security Considerations
 
-- Agent architecture and orchestration.
-- Tool permissions and execution boundaries.
-- Prompt injection and instruction hierarchy.
-- Persistent tasks and unintended side effects.
-- Security considerations in autonomous coding systems.
-
-The broader goal is to encourage technical discussion, reproducible research, and safer agent design.
-
-Security & Responsible Use
-
-This repository is intended for research, educational use, and defensive security analysis.
+Agent systems can introduce security risks when they execute tools, process untrusted content, or perform actions without adequate restrictions.
 
 When building or evaluating similar systems:
 
 - Apply least-privilege permissions to tools.
-- Require appropriate approval for sensitive or persistent actions.
-- Treat external content and tool output as untrusted input.
-- Protect credentials, private data, and internal configuration.
-- Audit scheduled jobs and delegated-agent behavior.
-- Test security assumptions in an authorized environment.
+- Treat external documents and tool output as untrusted input.
+- Require appropriate approval for sensitive operations.
+- Restrict filesystem and terminal access.
+- Audit scheduled tasks and delegated-agent behavior.
+- Protect credentials, tokens, and private data.
+- Test security assumptions in authorized environments.
 
-Documented instructions alone do not establish that a vulnerability exists. Actual exploitability depends on implementation, runtime configuration, and available permissions.
+Important: Documented instructions alone do not establish an exploitable vulnerability. Actual risk depends on the implementation, runtime configuration, and permissions available to the agent.
 
 Accuracy & Scope
 
-This repository represents an independent research and documentation effort. It may contain reconstructed, interpreted, incomplete, or version-specific material.
+This repository is an independent reconstruction and research effort. Its contents may be incomplete, interpreted, reconstructed from observations, or specific to a particular version.
 
-It is not an official Z.ai publication, and the completeness or accuracy of the document is not guaranteed. Readers should verify claims against authorized sources and their own testing.
+It should not be treated as a verified, complete, or authoritative representation of Z.ai Code's internal implementation.
+
+Readers are encouraged to validate claims using authorized sources and independent testing.
 
 Contributing
 
-Contributions and technical feedback are welcome.
+Contributions, corrections, and technical feedback are welcome.
 
-If you identify an error or have a useful improvement:
+1. Open an issue describing your observation or proposed improvement.
+2. Provide supporting evidence when possible.
+3. Submit a pull request with a clear explanation of your changes.
+4. Keep contributions focused, reproducible, and respectful of third-party rights.
 
-1. Open an issue describing the finding.
-2. Include supporting evidence where possible.
-3. Submit a pull request with a clear explanation of the changes.
-
-Please avoid submitting private credentials, personal data, or material you are not authorized to disclose.
+Please do not submit credentials, personal information, or confidential material that you are not authorized to disclose.
 
 Disclaimer
 
-Z.ai and Z.ai Code are referenced solely to identify the subject of this independent research. This project is not affiliated with, endorsed by, or sponsored by Z.ai.
+This is an independent, community-oriented research project. It is not affiliated with, endorsed by, or sponsored by Z.ai.
 
-All third-party names and trademarks belong to their respective owners. If any material raises an ownership or licensing concern, please contact the repository maintainer.
+The names Z.ai and Z.ai Code are used only to identify the subject of this research. All applicable third-party trademarks belong to their respective owners.
+
+If you believe any material raises an ownership, privacy, or licensing concern, please contact the repository maintainer.
 
 Author
 
@@ -100,4 +126,6 @@ GitHub: "@shetanmehra" (https://github.com/shetanmehra)
 
 ---
 
-If you find this research useful, consider starring the repository and contributing constructive feedback.
+If you find this project useful, consider starring the repository, sharing constructive feedback, or contributing improvements.
+
+Learn. Explore. Build. Contribute.
