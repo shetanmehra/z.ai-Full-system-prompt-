@@ -1,18 +1,28 @@
-"Z.ai Code — System Prompt & Agent Research" (assets/banner.png)
+<p align="center">
+  <img src="assets/banner.png" alt="Z.ai Code — System Prompt & Agent Research" width="100%" />
+</p>
 
-Z.ai Code — System Prompt & Agent Research
+<h1 align="center">Z.ai Code — System Prompt & Agent Research</h1>
 
-An independent research project exploring AI coding-agent instructions, skills, orchestration, tools, and development workflows.
+<p align="center">
+  An independent research project exploring AI coding-agent instructions, skills, orchestration, tools, and development workflows.
+</p>
 
-<p align="left">
+<p align="center">
   <img src="https://img.shields.io/badge/Project-Independent%20Research-00D26A?style=flat-square" alt="Independent Research" />
   <img src="https://img.shields.io/badge/Format-Markdown-blue?style=flat-square&logo=markdown" alt="Markdown" />
   <img src="https://img.shields.io/badge/Focus-AI%20Agents-black?style=flat-square" alt="AI Agents" />
-</p>"Explore the Document" (prompt.md) · "Report an Issue" (../../issues) · "Contribute" (../../pulls)
+</p>
+
+<p align="center">
+  <a href="prompt.md"><b>Explore the Document</b></a> ·
+  <a href="../../issues"><b>Report an Issue</b></a> ·
+  <a href="../../pulls"><b>Contribute</b></a>
+</p>
 
 ---
 
-Overview
+## Overview
 
 This repository contains an independently reconstructed and documented collection of material related to Z.ai Code and its AI coding-agent workflows.
 
@@ -20,23 +30,24 @@ It explores how coding agents may structure instructions, discover skills, coord
 
 The project is intended for developers, AI researchers, and open-source contributors interested in understanding agent architectures and building safer, more capable AI-powered development tools.
 
-Start here: ""prompt.md"" (prompt.md)
+**Start here:** [`prompt.md`](prompt.md)
 
-What's Inside?
+## What's Inside?
 
-Topic| Description
-Prompt Structure| Instructions, conventions, and agent behavior
-Agent Architecture| Agent roles and task execution patterns
-Sub-Agent Orchestration| Delegation, coordination, and shared work logs
-Skills System| Skill discovery and workflow integration
-Tool Integrations| Terminal, filesystem, and development utilities
-Scheduled Workflows| Recurring tasks and automated QA concepts
-Development Workflows| Implementation, browser verification, and iteration
-Security Research| Permissions, prompt injection, and execution boundaries
+| Topic | Description |
+| --- | --- |
+| Prompt Structure | Instructions, conventions, and agent behavior |
+| Agent Architecture | Agent roles and task execution patterns |
+| Sub-Agent Orchestration | Delegation, coordination, and shared work logs |
+| Skills System | Skill discovery and workflow integration |
+| Tool Integrations | Terminal, filesystem, and development utilities |
+| Scheduled Workflows | Recurring tasks and automated QA concepts |
+| Development Workflows | Implementation, browser verification, and iteration |
+| Security Research | Permissions, prompt injection, and execution boundaries |
 
-The document is a research artifact. Inclusion of a mechanism does not guarantee that it exists or is enabled in every version of the original software.
+> The document is a research artifact. Inclusion of a mechanism does not guarantee that it exists or is enabled in every version of the original software.
 
-Why This Project?
+## Why This Project?
 
 AI coding agents are evolving beyond simple code completion. They can coordinate tools, delegate work, and execute multi-step development workflows.
 
@@ -51,31 +62,33 @@ Understanding these systems helps developers investigate:
 
 The goal is to encourage technical learning, independent analysis, and constructive community discussion.
 
-Repository Structure
+## Repository Structure
 
+```text
 z.ai-Full-system-prompt-/
 ├── README.md
 ├── prompt.md
 └── assets/
     └── banner.png
+```
 
-The structure above represents the intended layout. The banner will display once "assets/banner.png" has been uploaded to the repository.
-
-Getting Started
+## Getting Started
 
 No installation is required to explore the documentation.
 
 1. Clone or open this repository.
-2. Read ""prompt.md"" (prompt.md).
+2. Read [`prompt.md`](prompt.md).
 3. Explore the documented instructions, tools, and workflows.
 4. Verify technical claims independently before relying on them.
 
 To clone the repository:
 
+```bash
 git clone https://github.com/shetanmehra/z.ai-Full-system-prompt-.git
 cd z.ai-Full-system-prompt-
+```
 
-Security Considerations
+## Security Considerations
 
 Agent systems can introduce security risks when they execute tools, process untrusted content, or perform actions without adequate restrictions.
 
@@ -89,9 +102,9 @@ When building or evaluating similar systems:
 - Protect credentials, tokens, and private data.
 - Test security assumptions in authorized environments.
 
-Important: Documented instructions alone do not establish an exploitable vulnerability. Actual risk depends on the implementation, runtime configuration, and permissions available to the agent.
+> **Important:** Documented instructions alone do not establish an exploitable vulnerability. Actual risk depends on the implementation, runtime configuration, and permissions available to the agent.
 
-Accuracy & Scope
+## Accuracy & Scope
 
 This repository is an independent reconstruction and research effort. Its contents may be incomplete, interpreted, reconstructed from observations, or specific to a particular version.
 
@@ -99,7 +112,7 @@ It should not be treated as a verified, complete, or authoritative representatio
 
 Readers are encouraged to validate claims using authorized sources and independent testing.
 
-Contributing
+## Contributing
 
 Contributions, corrections, and technical feedback are welcome.
 
@@ -110,7 +123,7 @@ Contributions, corrections, and technical feedback are welcome.
 
 Please do not submit credentials, personal information, or confidential material that you are not authorized to disclose.
 
-Disclaimer
+## Disclaimer
 
 This is an independent, community-oriented research project. It is not affiliated with, endorsed by, or sponsored by Z.ai.
 
@@ -118,14 +131,13 @@ The names Z.ai and Z.ai Code are used only to identify the subject of this resea
 
 If you believe any material raises an ownership, privacy, or licensing concern, please contact the repository maintainer.
 
-Author
+## Author
 
-Shetan Mehra
-
-GitHub: "@shetanmehra" (https://github.com/shetanmehra)
+**Shetan Mehra** — GitHub: [@shetanmehra](https://github.com/shetanmehra)
 
 ---
 
-If you find this project useful, consider starring the repository, sharing constructive feedback, or contributing improvements.
-
-Learn. Explore. Build. Contribute.
+<p align="center">
+  If you find this project useful, consider starring the repository, sharing constructive feedback, or contributing improvements.<br/>
+  <b>Learn. Explore. Build. Contribute.</b>
+</p>
